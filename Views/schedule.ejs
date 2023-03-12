@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+
+<body>
+
+  <%- include('partials/header.ejs') %>
+     <!-- main content -->
+
+     <section class="row-alt">
+      <div class="lead container">
+      <h1>Schedule</h1>
+        <p>
+          The conference opens with amazing workshops and continues with two days of incredible
+          talks and keynotes, all of which are facilitated by industry-leading experts.
+        </p>
+    </div>
+    <!-- TABLE -->
+     </section class="row">
+     <section>
+      <div class="container">
+<table>
+  <thead>
+    <tr>
+      <th scope="row">Conference</th>
+      <td  class="subtle-offsef"colspan="2">November 24th</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <th scope="row">
+      <time datetime="08:30:00">08:30am </time></th>
+      <td class="subtle-offsef" colspan="2">REGISTRATION</td>
+      </tr>
+    <tr>
+        <th scope="row">
+          <time datetime="09:30:00">09:30am </time>
+          </th>
+          <td>
+        <a href="Speakers#Betty">
+          <h4>Elizabeth Oghene</h4>
+          Making Remote Development
+        </a>
+      </td>
+      
+      <td><a href="speakers.#Mike">
+        <h4>Micheal Ogundero</h4>
+        Teaching our CSS to play nice
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th scope="row">
+      <time datetime="12:30:00">12:30Pm </time>
+      </th>
+      <td class="subtle-offsef" colspan="2">LUNCH BREAK</td>
+
+  </tr>
+  <th scope="row">
+    <time datetime="01:30:00">01:30Pm </time>
+    </th>
+  <td><a href="speakers#Mike">
+    <h4>Micheal Ogundero</h4>
+    Teaching our CSS to play nice
+  </a>
+</td>
+<td>
+  <a href="Speakers#Betty">
+    <h4>Elizabeth Oghene</h4>
+    Making Remote Development
+  </a>
+</td>
+  </tbody>
+</table>
+      </div>
+     </section>
+    
+    <%- include('partials/footer.ejs') %>
+
+</body>
+</html>
