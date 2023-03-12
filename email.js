@@ -12,7 +12,6 @@ function sendMail(mailOptions) {
         }
     })
 
-    Console.log("testing my repo")
 
     transporter.sendMail(mailOptions, (err, info) => {
         if (err) {
